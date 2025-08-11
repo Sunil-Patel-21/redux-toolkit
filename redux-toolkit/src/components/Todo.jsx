@@ -8,7 +8,6 @@ function Todo() {
   const handleRemove = (id) => {
     dispatch(removeTodo(id));
   };
-
   return (
     <div className="flex justify-center items-start py-10 bg-gray-50 min-h-screen">
       <div className="bg-white shadow-xl rounded-xl p-6 w-full max-w-md border border-gray-200">
@@ -40,5 +39,4 @@ function Todo() {
     </div>
   );
 }
-
 export default Todo;
